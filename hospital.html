@@ -6,41 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="https://www.bu.edu/cpt/files/2019/11/AAR-Logo_no_tagline.jpg" type="image/x-icon">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/d89edf4aa2.js" crossorigin="anonymous"></script>
+  
     <title>The AAR Hospital</title>
 </head>
+<script src="https://kit.fontawesome.com/d89edf4aa2.js" crossorigin="anonymous"></script>
 
 
-<body>
-    <script src="https://kit.fontawesome.com/d89edf4aa2.js" crossorigin="anonymous"></script>
+<body id="home">
+  <header class="hero">
+     <nav class="navbar">
+       
+           <!-- --------------------------------------
+           -------- Hamburger Links ------------
+           --------------------------------------- -->
+           <ul class="nav-menu">
 
-    <div class="navbar">
-        <ul>
-          <li><a href="#hospital" class="nav-link"><i class="far fa-address-book"></i> home</a></li>
+
+       
+          <li class="nav-item"><a href="#hospital" class="nav-link"><i class="far fa-address-book"></i> home</a></li>
         
-          <li><a href="#about" class="nav-link"><i class="far fa-address-book"></i> about</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link"><i class="far fa-address-book"></i> about</a></li>
 
-          <li><a href="#services" class="nav-link"><i class="fas fa-tasks"></i> services</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link"><i class="fas fa-tasks"></i> services</a></li>
 
-             <li><a href="#contact us" class="nav-link"><i class="fas fa-tasks"></i> contact us</a></li>
-
+             <li class="nav-item"><a href="#contact us" class="nav-link"><i class="fas fa-tasks"></i> contact us</a></li>
+ 
         </ul>
-        
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+       </div>
     </div>
+  </nav>
+  </header>
 
     <div class="row padding" id="hospital">
-        <img class="w3-image" src="https://lh3.googleusercontent.com/nmme609g_0cgCS7Hyn5P6Y1LVJ33cCPXc5NXYFA5QVQv7P7PO5VZJN0Qhmtd6MUzI-zMYuiRMfTGXihFXOzvHM8aU0nqgshfJZ1edW5C=s750" alt="The Hotel" style="min-width:900px" width="1200" height="800">
+      <div class="col span-1-of-4 box">
+
+        <img class="w3-image" src="https://lh3.googleusercontent.com/nmme609g_0cgCS7Hyn5P6Y1LVJ33cCPXc5NXYFA5QVQv7P7PO5VZJN0Qhmtd6MUzI-zMYuiRMfTGXihFXOzvHM8aU0nqgshfJZ1edW5C=s750" alt="The Hotel"  width="50" height="50">
         <div class="centered" style="font-family:arial black;"> The AAR Hospital</div>
 
     </div><br><br><br>
-    
+  </div>
+
     <div class="w3-row-padding" id="about">
         <div class="w3-col l4 12">
            
-          <h3>About</h3>
+          <h1>About</h1>
             
           <div class="aligned">
-            <img src="https://xxodusdesign.com/wp-content/uploads/2017/05/thumbA.jpg" class="grayscale" style="width:70%;">
+            <div class="col span-1-of-4 box">
+
+            <img src="https://xxodusdesign.com/wp-content/uploads/2017/05/thumbA.jpg"  style="width:70%;">
         
           <span>AAR hospital is a 140-bed general hospital.  We have an outpatient facility that has been purposefully 
             separated from the urgent care unit. The urgent care unit is designed to receive patients who are in critical 
@@ -61,6 +83,8 @@
             that leverages on innovation and an engaged workforce.
           </span>
           </div>
+        </div>
+
         <p>We accept: <i class="fa fa-credit-card w3-large"></i> 
           <i class="fa fa-cc-mastercard w3-large"></i> <i class="fa fa-cc-amex w3-large"></i> 
           <i class="fa fa-cc-cc-visa w3-large"></i><i class="fa fa-cc-paypal w3-large"></i></p>
@@ -70,10 +94,12 @@
 
             <div class="w3-container w3-margin-top" id="services">
                
-                <h3>services</h3>
+                <h1>services</h1>
                 <h1>THEATER SERVICES</h1>
                 <div class="aligned">
-                    <img src="https://media.tarkett-image.com/medium/RF_Tarkett_Middle_East_Africa_AAR_Hospital_Kenya_11.jpeg" style="width:100%;">
+                  <div class="col span-1-of-4 box">
+
+                    <img src="https://media.tarkett-image.com/medium/RF_Tarkett_Middle_East_Africa_AAR_Hospital_Kenya_11.jpeg" style="width:60%;">
                 
                 <span>
                     AAR Hospital Surgical theatre services encompass patients of all ages–From minor routine procedures
@@ -86,8 +112,12 @@ include day care surgery services meant for all patients who require minor surge
 into the wards. Patient are operated on, observed until well enough to go home.
                 </span>
             </div>
+          </div>
+
                 <h1>CRITICAL SERVICES</h1>
                 <div class="aligned">
+                  <div class="col span-1-of-4 box">
+
                     <img src="https://aarhospital.com/wp-content/uploads/2022/01/Untitled-1-1.jpg" style="width:60%;">
                 
                 <span>
@@ -103,9 +133,13 @@ conditions, such as heart or lung disease. The ICU has 12 beds and adjacent to i
  requiring critical care are attended in the Neonatal Intensive Care Unit.
                 </span>
             </div>
+          </div>
+
                 <h1>DIAGNOSTIC SERVICES</h1>
                 <div class="aligned">
-                    <img src="https://gst-online.com/wp-content/uploads/2020/07/scope.jpg" style="width:60%;">
+                  <div class="col span-1-of-4 box">
+
+                    <img src="https://media.springernature.com/lw450/springer-cms/rest/v1/content/15982464/data/v1" style="width:60%;">
                 
                 <span>
                     AAR hospital is committed to providing our patients with the highest standard of healthcare. 
@@ -125,24 +159,21 @@ conditions, such as heart or lung disease. The ICU has 12 beds and adjacent to i
                      </ul>
                     </span>
                 </div>
+              </div>
+
             </div>
         </div>
         <div class="w3-container" id="contact us">
-            <h2>Contact</h2>
+
+            <h1>Contact</h1>
             <p>If you have any questions, do not hesitate to ask them.</p>
             <i class="fa fa-map-marker w3-text-red" style="width:30px"></i> Nairobi,Kenya<br>
             <i class="fa fa-phone w3-text-red" style="width:30px"></i> Phone: 0709111000<br>
             <i class="fa fa-phone w3-text-red" style="width:30px"> </i> Phone: +25420228850<br>
-            <form action="/action_page.php" target="_blank">
-              <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
-              <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
-              <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
-              <p><button class="w3-button w3-black w3-padding-large" type="submit">SEND MESSAGE</button></p>
-            </form>
+           
           </div><br><br><br><br><br><br><br><br>
           <div class="footer">
- 
-            <h5>Find Us On</h5>
+             <h5>Find Us On</h5>
             <div class="w3-xlarge w3-padding-16">
               <i class="fa fa-facebook-official w3-hover-opacity"></i>
               <i class="fa fa-instagram w3-hover-opacity"></i>
@@ -150,5 +181,29 @@ conditions, such as heart or lung disease. The ICU has 12 beds and adjacent to i
               <i class="fa fa-linkedin w3-hover-opacity"></i>
             </div>
             <p>Powered by <a href="irenewaweru9@gmail.com" target="_blank" class="w3-hover-text-green">irenewaweru9@gmail.com</a></p>
-</body>
+
+
+            <script>
+              const hamburger = document.querySelector(".hamburger");
+              const navMenu = document.querySelector(".nav-menu");
+              
+              hamburger.addEventListener("click", mobileMenu);
+              
+              function mobileMenu() {
+                hamburger.classList.toggle("active");
+                navMenu.classList.toggle("active");
+              }
+              
+              const navLink = document.querySelectorAll(".nav-link");
+              
+              navLink.forEach((n) => n.addEventListener("click", closeMenu));
+              
+              function closeMenu() {
+                hamburger.classList.remove("active");
+                navMenu.classList.remove("active");
+              }
+              </script>
+              
+
+          </body>
 </html>
